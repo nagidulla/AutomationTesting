@@ -18,5 +18,8 @@ public class AutomationScript {
 	 if (a==e) {
 		 System.out.println("Test pased");
 	 }
+	 else {
+		 System.out.println("Test failed");
+	 }
 }
 }
