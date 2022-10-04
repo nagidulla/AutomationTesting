@@ -13,5 +13,10 @@ public class AutomationScript {
 	 driver.findElement(By.id("username")).sendKeys("nagendra123");
 	 driver.findElement(By.id("password")).sendKeys("25121999");
 	 driver.findElement(By.id("login")).click();
+	 String a = driver.getTitle();
+	 String e = "Adactin.com - Search Hotel";
+	 if (a==e) {
+		 System.out.println("Test pased");
+	 }
 }
 }
