@@ -17,6 +17,7 @@ public class AlertHandling {
 		 driver.findElement(By.id("alertButton")).click();
 		 Alert al = driver.switchTo().alert();
 		 System.out.println(al.getText());
+		 System.out.println("Hello Iam in");
 		 al.accept();
 		
 
